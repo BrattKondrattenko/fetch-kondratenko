@@ -1,0 +1,55 @@
+$body-bg: #f7f7f7;
+$black: #111;
+$red: #f00;
+
+body {
+  background-color: $body-bg;
+  color: $black;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  color: $red;
+  font-size: 32px;
+  margin: 0 0 32px;
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 32px auto;
+  max-width: 600px;
+  padding: 16px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin: 0 0 16px;
+}
+
+.card p {
+  margin: 0;
+}
+
+button {
+  background-color: $red;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 32px;
+  padding: 8px 16px;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: darken($red, 10%);
+  }
+}
